@@ -1,38 +1,43 @@
-# Lab 2: Simple Calculator
+# Lab 2: Chessboard
 
 ## Introduction
-Implement a simple command-line calculator in C that performs basic arithmetic operations on two numbers.
+Write a C program that prints the coordinates of a chessboard to the terminal.
 
-## Task Description
+## Section I: 
 
-Write a C program that:
+### Task Description
 
-1. asks the user to input two floating-point numbers
-2. reads the numbers from standard input
-3. asks the user to choose an arithmetic operation
-4. performs the selected calculation
-5. prints the result to the terminal
+A standard chessboard consists of:
+- 8 columns labelled `A` to `H`
+- 8 rows labelled `1` to `8`
 
-The supported operations are:
+Your task is to write a C program that prints all chessboard fields in the following format:
 
-- Addition (`+`)
-- Subtraction (`-`)
-- Multiplication (`*`)
-- Division (`/`)
+A8 B8 C8 D8 E8 F8 G8 H8 
 
----
+A7 B7 C7 D7 E7 F7 G7 H7
 
-## Program Requirements
+A6 B6 C6 D6 E6 F6 G6 H6
 
-Your program should:
+A5 B5 C5 D5 E5 F5 G5 H5
 
-1. Prompt the user for the first number
-2. Prompt the user for the second number
-3. Prompt the user for the desired operation
-4. Handle invalid operations gracefully
-5. Prevent division by zero
-6. Compute the result based on the selected operation
-7. Output the result in a readable format
+A4 B4 C4 D4 E4 F4 G4 H4
 
-Example output:
-The result of 3.00 + 4.00 = 7.00
+A3 B3 C3 D3 E3 F3 G3 H3
+
+A2 B2 C2 D2 E2 F2 G2 H2
+
+A1 B1 C1 D1 E1 F1 G1 H1
+
+### Requirements
+
+Your program must:
+
+- print rows from `8` down to `1`
+- print columns from `A` to `H`
+- not hard-code each field manually
+
+## Section II:
+
+Create a flow chart for the programm developed in Section I.
+You can use [draw.io](https://www.drawio.com/) as a free tool to create the flow chart.
