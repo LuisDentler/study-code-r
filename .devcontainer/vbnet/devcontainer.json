@@ -1,8 +1,6 @@
 {
     "name": "VB.NET Development Container",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+    "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
     "customizations": {
         "vscode": {
             "extensions": [
