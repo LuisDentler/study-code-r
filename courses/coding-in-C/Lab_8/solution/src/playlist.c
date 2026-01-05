@@ -26,7 +26,7 @@ void add_song(Playlist *playlist, const char *title, const char *artist)
 {
     if (playlist->size >= MAX_SONGS)
     {
-        printf("Error: Playlist reached maximum size (%d songs)\n", MAX_SONGS);
+        printf("Warning: Playlist reached maximum size (%d songs). New song discarded.\n", MAX_SONGS);
         return;
     }
 
